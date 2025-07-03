@@ -1,0 +1,7 @@
+﻿  4주차_CircleMain.cpp
+  Circle.h
+C:\Users\kuroc\source\repos\객체 지향 프로그래밍\4주차_수업\4주차_CircleMain.cpp(17,9): error C2512: 'Circle': 사용할 수 있는 적절한 기본 생성자가 없습니다.
+  C:\Users\kuroc\source\repos\객체 지향 프로그래밍\4주차_수업\Circle.h(7,7):
+  'Circle' 선언을 참조하십시오.
+  
+  코드를 생성하고 있습니다...

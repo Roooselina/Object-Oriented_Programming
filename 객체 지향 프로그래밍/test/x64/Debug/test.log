@@ -1,0 +1,15 @@
+﻿  test.cpp
+test.obj : error LNK2019: GdipAlloc"public: static void * __cdecl Gdiplus::GdiplusBase::operator new(unsigned __int64)" (??2GdiplusBase@Gdiplus@@SAPEAX_K@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+test.obj : error LNK2019: GdipFree"public: static void __cdecl Gdiplus::GdiplusBase::operator delete(void *)" (??3GdiplusBase@Gdiplus@@SAXPEAX@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+test.obj : error LNK2019: GdiplusStartup"void __cdecl Render(int,int)" (?Render@@YAXHH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+test.obj : error LNK2019: GdiplusShutdown"void __cdecl Render(int,int)" (?Render@@YAXHH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+test.obj : error LNK2019: GdipLoadImageFromFile"public: __cdecl Gdiplus::Image::Image(wchar_t const *,int)" (??0Image@Gdiplus@@QEAA@PEB_WH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+test.obj : error LNK2019: GdipLoadImageFromFileICM"public: __cdecl Gdiplus::Image::Image(wchar_t const *,int)" (??0Image@Gdiplus@@QEAA@PEB_WH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+test.obj : error LNK2019: GdipCloneImage"public: virtual class Gdiplus::Image * __cdecl Gdiplus::Image::Clone(void)" (?Clone@Image@Gdiplus@@UEAAPEAV12@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+test.obj : error LNK2019: GdipDisposeImage"public: virtual __cdecl Gdiplus::Image::~Image(void)" (??1Image@Gdiplus@@UEAA@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+test.obj : error LNK2019: GdipGetImageWidth"public: unsigned int __cdecl Gdiplus::Image::GetWidth(void)" (?GetWidth@Image@Gdiplus@@QEAAIXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+test.obj : error LNK2019: GdipGetImageHeight"public: unsigned int __cdecl Gdiplus::Image::GetHeight(void)" (?GetHeight@Image@Gdiplus@@QEAAIXZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+test.obj : error LNK2019: GdipCreateFromHDC"public: __cdecl Gdiplus::Graphics::Graphics(struct HDC__ *)" (??0Graphics@Gdiplus@@QEAA@PEAUHDC__@@@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+test.obj : error LNK2019: GdipDeleteGraphics"public: __cdecl Gdiplus::Graphics::~Graphics(void)" (??1Graphics@Gdiplus@@QEAA@XZ) 함수에서 참조되는 확인할 수 없는 외부 기호
+test.obj : error LNK2019: GdipDrawImageRectI"public: enum Gdiplus::Status __cdecl Gdiplus::Graphics::DrawImage(class Gdiplus::Image *,int,int,int,int)" (?DrawImage@Graphics@Gdiplus@@QEAA?AW4Status@2@PEAVImage@2@HHHH@Z) 함수에서 참조되는 확인할 수 없는 외부 기호
+C:\Users\kuroc\source\repos\객체 지향 프로그래밍\x64\Debug\test.exe : fatal error LNK1120: 13개의 확인할 수 없는 외부 참조입니다.

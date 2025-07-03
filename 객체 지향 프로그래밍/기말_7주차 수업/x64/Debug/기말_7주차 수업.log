@@ -1,0 +1,5 @@
+﻿  기말_7주차 수업.cpp
+C:\Users\kuroc\source\repos\객체 지향 프로그래밍\기말_7주차 수업\기말_7주차 수업.cpp(43,5): error C2084: 'int main(void)' 함수에 이미 본문이 있습니다.
+  C:\Users\kuroc\source\repos\객체 지향 프로그래밍\기말_7주차 수업\기말_7주차 수업.cpp(10,5):
+  'main'의 이전 정의를 참조하십시오.
+  
